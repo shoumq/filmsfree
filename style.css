@@ -1,0 +1,141 @@
+/*!
+Theme Name: filmsfree
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: filmsfree
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+filmsfree is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif; }
+
+.container {
+  padding: 0 180px; }
+
+.header {
+  background: #F8F8F8;
+  padding: 50px 0; }
+  .header__logo {
+    font-weight: 500;
+    font-size: 80px;
+    color: #353438; }
+    .header__logo b {
+      font-weight: 500;
+      color: #5432E2; }
+
+main {
+  margin-top: 120px; }
+  main .title {
+    font-weight: 300;
+    font-size: 59px;
+    color: #353438; }
+  main .video {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px; }
+    main .video__el {
+      border: 1px solid #E1E1E1;
+      border-radius: 10px;
+      overflow: hidden;
+      width: 100%; }
+      main .video__el_img {
+        top: 0;
+        left: 0;
+        right: 0;
+        max-width: 100%;
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+        object-position: top; }
+      main .video__el_bc {
+        font-weight: 400;
+        font-size: 17px;
+        color: #353438; }
+      main .video__el_info {
+        padding: 25px 30px; }
+      main .video__el_name {
+        font-weight: 400;
+        font-size: 30px;
+        margin-top: 30px;
+        color: #353438; }
+      main .video__el_desc {
+        font-weight: 400;
+        font-size: 20px;
+        margin: 30px 0;
+        color: #353438; }
+      main .video__el_link {
+        font-weight: 400;
+        font-size: 16px;
+        text-decoration: none;
+        color: #5432E2; }
+
+.link_plus {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 107px; }
+  .link_plus_a {
+    font-weight: 400;
+    font-size: 20px;
+    color: #5432E2;
+    text-decoration: none; }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px; }
+
+  .header {
+    background: #F8F8F8;
+    padding: 50px 0; }
+    .header__logo {
+      font-weight: 500;
+      font-size: 30px;
+      color: #353438; }
+
+  main {
+    margin-top: 120px; }
+    main .video {
+      margin-top: 80px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 60px; } }
+
+.post-thumbnail img {
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
+
+.entry-title {
+	font-weight: 300;
+    font-size: 59px;
+    color: #353438;
+	margin-bottom: 80px;
+}
+
+.info {
+	margin-top: 25px;
+	font-weight: 300;
+    font-size: 25px;
+    color: #353438;
+}
+
+/*# sourceMappingURL=style.css.map */
